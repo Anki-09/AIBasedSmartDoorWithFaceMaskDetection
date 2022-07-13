@@ -11,25 +11,25 @@ places and if the image of the person is detected with a mask, the smart door wi
 automatically.
 
 Variables used:
-relay1 - GPIO pin of Relay 1
-relay2 - GPIO pin of Relay 2
-INIT_LR - Initial Learning Rate
-EPOCHS - Number of Iterations
-BS - Batch Size
-data - List of Images
+relay1 - GPIO pin of Relay 1,
+relay2 - GPIO pin of Relay 2,
+INIT_LR - Initial Learning Rate,
+EPOCHS - Number of Iterations,
+BS - Batch Size,
+data - List of Images,
 labels - Label of 2 categories (with_mask/without_mask)
 
 Hardware Requirements:
-Processor: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz 2.30 GHz or higher
-RAM - 8GB or higher
-RaspberryPi - 3 Model B
-SD Card - 16GB
-Battery - 4.5V
-DC Motor
+Processor: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz 2.30 GHz or higher,
+RAM - 8GB or higher,
+RaspberryPi - 3 Model B,
+SD Card - 16GB,
+Battery - 4.5V,
+DC Motor,
 2 Channel Relay
 
 Software Requirements:
-VNC Viewer
+VNC Viewer,
 Raspbian OS
 
 Compiling procedure:
